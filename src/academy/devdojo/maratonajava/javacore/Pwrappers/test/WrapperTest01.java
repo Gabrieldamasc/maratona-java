@@ -19,5 +19,19 @@ public class WrapperTest01 {
         Double doubleW = 10d;
         Boolean booleanW = false;
         Character charW = 'W';
+
+        int i = intW;
+        Integer i1 = Integer.parseInt("10");
+        boolean verdadeiro = Boolean.parseBoolean("saa");
+        System.out.println(verdadeiro);
+        int i2 = Integer.parseInt("22");
+        System.out.println(i2);
+
+        System.out.println(Character.compare('1','1'));
+        System.out.println(Character.isLowerCase('A'));
+        System.out.println(Character.isLowerCase('b'));
+        System.out.println(Character.getName(122));
+        System.out.println(Character.getType('p'));
+
     }
 }
