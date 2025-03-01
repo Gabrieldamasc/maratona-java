@@ -6,6 +6,7 @@ public class StringTest01 {
         String nome2 = "012345";
         System.out.println(nome1.toUpperCase());
         System.out.println(nome1.substring(1));
+        System.out.println(nome1.substring(1));
         System.out.println(nome2.substring(0,nome2.length()-1));
         System.out.println(nome2.length());
         System.out.println(nome1.charAt(2));
