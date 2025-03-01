@@ -2,15 +2,15 @@ package lista.execercicios.lista05;
 
 class Solution {
     public boolean isPalindrome(int x) {
-        String xs = x + "";
+        String nome = x + "";
         String contrario = "";
-        for (int i = (xs.length()-1); i >= 0 ; i--) {
-            contrario = contrario + xs.charAt(i);
+        for (int i = (nome.length() - 1); i >= 0; i--) {
+            contrario = contrario + nome.charAt(i);
         }
 
-        if (contrario.toLowerCase().equals(xs.toLowerCase())){
+        if (contrario.toLowerCase().equals(nome.toLowerCase())) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
