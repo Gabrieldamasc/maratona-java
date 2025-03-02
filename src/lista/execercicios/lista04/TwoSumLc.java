@@ -1,4 +1,4 @@
-package lista.execercicios.lista04.test;
+package lista.execercicios.lista04;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
