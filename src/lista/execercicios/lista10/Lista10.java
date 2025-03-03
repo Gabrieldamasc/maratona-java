@@ -14,15 +14,13 @@ public class Lista10 {
 
         int sumNum = userNumIn1 + userNumIn2;
 
-        System.out.println(sumNumAct(sumNum,userNumIn3));
-
-
+        System.out.println(sumNumAct(sumNum, userNumIn3));
     }
 
-    public static boolean sumNumAct(int sumNum, int userNumIn3){
-        if (sumNum == userNumIn3){
+    public static boolean sumNumAct(int sumNum, int userNumIn3) {
+        if (sumNum == userNumIn3) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
