@@ -1,8 +1,8 @@
 package academy.devdojo.maratonajava.javacore.Kenum.dominio;
 
 public enum TipoCliente {
-    PESSOA_JURIDICA(1, "PF"),
-    PESSOA_FISICA(2, "PJ");
+    PESSOA_JURIDICA(1, "PJ"),
+    PESSOA_FISICA(2, "PF");
 
     public int valor;
     private String nomeRelatorio;

@@ -8,11 +8,16 @@ public class ClienteTest01 {
     public static void main(String[] args) {
         Cliente cliente1 = new Cliente("Gabriel", TipoCliente.PESSOA_FISICA, TipoPagamento.CREDITO);
         Cliente cliente2 = new Cliente("Roberto", TipoCliente.PESSOA_JURIDICA, TipoPagamento.DEBITO);
+        Cliente cliente3 = new Cliente("José", TipoCliente.PESSOA_FISICA, TipoPagamento.CREDITO);
 
         System.out.println(cliente1);
         System.out.println(cliente2);
+        System.out.println(cliente3);
         System.out.println(TipoPagamento.CREDITO.valorDesconto(100));
         System.out.println(TipoPagamento.DEBITO.valorDesconto(100));
+        System.out.println(TipoPagamento.DEBITO.valorDesconto(500));
+
+        System.out.println("-------------------------");
 
         TipoCliente tipoCliente1 = TipoCliente.tipoClientePorRelatorio("PF");
         TipoCliente tipoCliente2 = TipoCliente.tipoClientePorRelatorio("PJ");
