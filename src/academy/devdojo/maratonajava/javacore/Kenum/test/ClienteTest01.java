@@ -25,7 +25,5 @@ public class ClienteTest01 {
         System.out.println(tipoCliente1);
         System.out.println(tipoCliente2);
         System.out.println(tipoCliente3);
-
-
     }
 }
