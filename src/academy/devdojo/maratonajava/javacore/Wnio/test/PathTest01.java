@@ -7,5 +7,6 @@ public class PathTest01 {
     public static void main(String[] args) {
         Path p1 = Paths.get("C:\\Users\\T-Gamer\\IdeaProjects\\maratona-java\\texto.txt");
         System.out.println(p1.getFileName());
+        System.out.println(p1.toFile());
     }
 }
