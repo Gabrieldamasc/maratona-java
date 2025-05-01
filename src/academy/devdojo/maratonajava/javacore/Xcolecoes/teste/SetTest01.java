@@ -2,14 +2,11 @@ package academy.devdojo.maratonajava.javacore.Xcolecoes.teste;
 
 import academy.devdojo.maratonajava.javacore.Xcolecoes.dominio.Manga;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SetTest01 {
     public static void main(String[] args) {
-        Set<Manga> mangas = new HashSet<>();
+        Set<Manga> mangas = new LinkedHashSet<>();
         mangas.add(new Manga("Naruto", 5L, 13.99, 4));
         mangas.add(new Manga("Attack on titan", 4L, 2.88, 0));
         mangas.add(new Manga("Drangon Ball", 2L, 4.55, 2));
