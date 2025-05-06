@@ -1,50 +1,66 @@
 package lista.execercicios.lista11;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Calculadora {
+
+    public static double adicao(double num1, double num2) {
+        return num1 + num2;
+    }
+
+    public static double subtrcao(double num1, double num2) {
+        return num1 - num2;
+    }
+
+    public static double multiplicacao(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public static double divisao(double num1, double num2) {
+        if (num1 == 0 || num2 == 0) {
+            System.out.println("impossível realizar divisão por zero");
+        }
+        return num1 / num2;
+    }
+
     public static void main(String[] args) {
 
-        System.out.println("-------------- CALCULADORA --------------");
         Scanner userIn = new Scanner(System.in);
-        Double soma = 0D;
-        Double subtracao = 0D;
-        Double multiplicacao = 0D;
-        Double divisao = 0D;
-        List<Double> numList = new ArrayList<>();
+        Boolean continuar = true;
 
-
-        String userChooseOption = userIn.next();
-
-        do{
-            System.out.print("Número: ");
-            Double numUserIn = userIn.nextDouble();
-            numList.add(numUserIn);
-            System.out.println("Digite a operação: ( + , - , x , / )");
-            String userChooseOperation = userIn.next();
-            switch (userChooseOperation) {
+        while (continuar) {
+            System.out.println("-------------- CALCULADORA --------------");
+            System.out.print("Digite o primeiro número: ");
+            double num1 = userIn.nextDouble();
+            System.out.print("Digite o segundo número:");
+            double num2 = userIn.nextDouble();
+            System.out.println("O que deseja fazer? + - x /");
+            String userChoose = userIn.next();
+            double resultado = 0;
+            switch (userChoose) {
                 case "+":
-                    soma += numUserIn;
-                    numList.add(soma);
+                    resultado = adicao(num1, num2);
+                    break;
                 case "-":
-                    subtracao -= numUserIn;
-                    numList.add(subtracao);
-                case "/":
-                    divisao /= numUserIn;
-                    numList.add(divisao);
+                    resultado = subtrcao(num1, num2);
+                    break;
                 case "x":
-                    multiplicacao *= numUserIn;
-                    numList.add(multiplicacao);
+                    resultado = multiplicacao(num1, num2);
+                    break;
+                case "/":
+                    resultado = divisao(num1, num2);
+                    break;
             }
-            System.out.println("c ---> para continuar");
-            System.out.println("f ---> para finalizar conta");
-            System.out.println("s ---> para sair");
-        }while (!userChooseOption.equals("s"));
-
-        for (Double mostrarResultado : numList) {
-            System.out.println(mostrarResultado);
+            System.out.println(num1 + " " +userChoose + " " + num2 + " = " + resultado);
+            System.out.println("Deseja realizar uma nova operação? (S/N)");
+            String continuarOrsair = userIn.next();
+            if (continuarOrsair.equalsIgnoreCase("n")){
+                System.out.println("Saindo da calculadora...");
+                continuar = false;
+            }
         }
 
     }
