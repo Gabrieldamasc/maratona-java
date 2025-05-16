@@ -1,71 +1,7 @@
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
-Olá testando o bufferedWriter
+Java é massa
+Java é agro
+Java é tec
+Java é tudo
+estou ficando louco com Java
+cada cagada é uma cagada
 

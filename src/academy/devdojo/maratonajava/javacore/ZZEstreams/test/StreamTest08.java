@@ -5,7 +5,7 @@ import academy.devdojo.maratonajava.javacore.ZZEstreams.dominio.LightNovel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StreamsTest08 {
+public class StreamTest08 {
     private static List<LightNovel> lightNovel = new ArrayList<>(List.of(new LightNovel("Fullmetal", 4.99),
             new LightNovel("Pokemom", 2.50),
             new LightNovel("No Game No Life", 3.99),
